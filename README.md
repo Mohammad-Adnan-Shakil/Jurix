@@ -127,7 +127,7 @@ Fine-tuned model will be available at: `adnshkl/jurix-7b-legal`
 
 - [x] Data pipeline (scrape → clean → chunk → format)
 - [x] 50 landmark SC judgements collected (3,417 chunks, 5,284 instruction pairs)
-- [ ] Output generation (240/240 pairs filled)
+- [x] Output generation (240/240 pairs filled)
 - [ ] QLoRA fine-tuning on Colab
 - [ ] RAGAS evaluation
 - [ ] FastAPI backend
