@@ -90,7 +90,16 @@ def generate(prompt: str) -> str:
         },
         json={
             "model": LLM_MODEL,
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are Jurix, an Indian legal assistant. Answer directly and concisely based on the provided judgements. Never show your thinking process. Start your answer immediately with the legal holding or principle. Cite sources as [1], [2] etc."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
             "max_tokens": 400,
             "temperature": 0.1
         },
