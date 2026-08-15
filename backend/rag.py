@@ -97,10 +97,17 @@ def generate(prompt: str) -> str:
         timeout=60
     )
 
-    if response.status_code != 200:
-        return f"Error: {response.text}"
+    data = response.json()
 
-    return response.json()["choices"][0]["message"]["content"].strip()
+    # Handle error responses
+    if "error" in data:
+        error_msg = data["error"].get("message", "Unknown error")
+        return f"LLM unavailable: {error_msg}"
+
+    if "choices" not in data:
+        return f"Unexpected response: {data}"
+
+    return data["choices"][0]["message"]["content"].strip()
 
 
 def answer(query: str) -> dict:
