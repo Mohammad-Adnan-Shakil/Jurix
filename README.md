@@ -131,7 +131,7 @@ Fine-tuned model will be available at: `adnshkl/jurix-7b-legal`
 - [x] QLoRA fine-tuning on Colab
 - [x] RAG pipeline — retrieve + generate with citations
 - [x] FastAPI backend
-- [ ] RAGAS evaluation
+- [x] RAGAS evaluation
 - [ ] React frontend
 - [ ] Deployment
 

@@ -1,0 +1,622 @@
+[
+  {
+    "id": "bench_001",
+    "category": "constitutional_law",
+    "question": "What did the Supreme Court hold in Maneka Gandhi v. Union of India regarding Article 21?",
+    "reference_answer": "The Supreme Court held that the right to personal liberty under Article 21 cannot be curtailed except by a procedure that is fair, just and reasonable. The court expanded Article 21 beyond its literal meaning, establishing that any law restricting personal liberty must also satisfy Articles 14 and 19.",
+    "generated_answer": "ERROR: {'message': 'Upstream error from Nvidia: Internal server error', 'code': 502}",
+    "sources": [
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1993 AIR 2178",
+        "title": "Unni Krishnan, J.P. And Ors. Etc. Etc vs State Of Andhra Pradesh And Ors. Etc. Etc on 4 February, 1993"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1983 AIR 239",
+        "title": "Sanjeev Coke Manufacturing Company vs Bharat Coking Coal Ltd. And Another on 10 December, 1982"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  {
+    "id": "bench_002",
+    "category": "constitutional_law",
+    "question": "What is the ratio decidendi of Kesavananda Bharati v. State of Kerala?",
+    "reference_answer": "The Supreme Court held that Parliament has the power to amend the Constitution under Article 368 but cannot alter or destroy its basic structure or essential features. This established the Basic Structure doctrine.",
+    "generated_answer": "ERROR: {'message': 'Upstream error from Nvidia: Internal server error', 'code': 502}",
+    "sources": [
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1993 AIR 2178",
+        "title": "Unni Krishnan, J.P. And Ors. Etc. Etc vs State Of Andhra Pradesh And Ors. Etc. Etc on 4 February, 1993"
+      },
+      {
+        "citation": "AIR 2011 SUPREME COURT 3430",
+        "title": "K.T. Plantation Pvt. Ltd. & Anr vs State Of Karnataka on 9 August, 2011"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  {
+    "id": "bench_003",
+    "category": "constitutional_law",
+    "question": "What did the Supreme Court hold in K.S. Puttaswamy v. Union of India regarding privacy?",
+    "reference_answer": "The Supreme Court unanimously held that the right to privacy is a fundamental right protected under Article 21 of the Constitution, overruling the earlier decisions in M.P. Sharma and Kharak Singh.",
+    "generated_answer": "The user is asking about what the Supreme Court held in K.S. Puttaswamy v. Union of India regarding privacy. I need to look at the provided judgements to find the relevant information.\n\nLooking at the provided judgements:\n- [1] and [2] are both \"Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017 (AIR 2017 SUPREME COURT 4161)\" - this is the Puttaswamy case\n- [3] and [4] are Maneka Gandhi vs Union Of India (1978)\n- [5] is State Of West Bengal vs Anwar All Sarkarhabib Mohamed (1952)\n\nThe relevant judgements for the Puttaswamy case are [1] and [2]. However, the text provided in these judgements appears to be truncated or incomplete. Let me examine what's available:\n\nFrom [1]: It mentions \"Constitution of India. However, the Privacy Bill, 2011 to provide for the right to privacy to citizens of India and to regulate the collection, maintenance and dissemination of their personal information and for penalisation for violation of such rights and matters connected therewith, is pending. In several judgments including Singh v. State of U.P [AIR 1963 SC 1295 : (1963) 2 Cri LJ 329] , R. Rajagopal v. State of T.N. [(1994) 6 SCC 632] , People's Union for Civil Liberties v. Union of India\"\n\nFrom [2]: It just shows the case header information - names of judges, case numbers, parties, etc.\n\nThe actual holding of the Puttaswamy case (",
+    "sources": [
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      }
+    ],
+    "faithfulness": 0.3,
+    "answer_relevance": 0.8571
+  },
+  {
+    "id": "bench_004",
+    "category": "constitutional_law",
+    "question": "What is the scope of Article 14 of the Indian Constitution?",
+    "reference_answer": "Article 14 guarantees equality before law and equal protection of laws. The Supreme Court has held that it prohibits arbitrary action and requires that classification must be founded on intelligible differentia which distinguishes persons grouped together from others left out.",
+    "generated_answer": "The user is asking about the scope of Article 14 of the Indian Constitution based on the provided judgements. Let me analyze the provided text to see what information is available about Article 14.\n\nLooking at the judgements:\n\n[1] State Of Kerala & Anr vs N. M. Thomas & Ors - This discusses directive principles forming the fundamental feature and social conscience of the Constitution, but doesn't directly discuss Article 14 scope.\n\n[2] Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. - This discusses constitutional interpretation, but the excerpt is cut off and doesn't specifically address Article 14.\n\n[3] State Of Kerala & Anr vs N. M. Thomas & Ors - This mentions Rule 13AA and validity based on Constitution provisions, mentions \"read in the light of the other two Articles\" but doesn't specify which articles or discuss Article 14 scope.\n\n[4] Maneka Gandhi vs Union Of India - This quotes the Preamble about justice, liberty, equality, fraternity but doesn't specifically discuss Article 14 scope.\n\n[5] Unni Krishnan, J.P. And Ors. Etc. Etc vs State Of Andhra Pradesh And Ors. Etc. Etc - This mentions: \"Arts. 14 and 16 are the means to implement the policy to achieve the ends sought to be promoted by the Directive Principles.\"\n\nThis is the only direct reference to Article 14 in the provided text. It states that Articles 14 and 16 are the means to implement the policy to achieve the ends sought to be promoted by the Directive Principles.\n\nHowever, the question asks about the \"scope\" of Article 14, and the provided judgements don't contain a comprehensive discussion of Article 14's scope. The only relevant mention is in judgement [5]",
+    "sources": [
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1993 AIR 2178",
+        "title": "Unni Krishnan, J.P. And Ors. Etc. Etc vs State Of Andhra Pradesh And Ors. Etc. Etc on 4 February, 1993"
+      }
+    ],
+    "faithfulness": 0.3,
+    "answer_relevance": 0.75
+  },
+  {
+    "id": "bench_005",
+    "category": "constitutional_law",
+    "question": "What did the Supreme Court hold in ADM Jabalpur v. Shivkant Shukla?",
+    "reference_answer": "The Supreme Court held by majority that during a proclaimed Emergency, the right to move any court for enforcement of fundamental rights under Articles 14, 21 and 22 stands suspended. Justice Khanna dissented, holding that Article 21 cannot be suspended even during Emergency.",
+    "generated_answer": "The user is asking about what the Supreme Court held in ADM Jabalpur v. Shivkant Shukla. However, looking at the provided relevant judgements, none of them appear to be the actual ADM Jabalpur case. The judgements provided are:\n\n1. Justice K.S. Puttaswamy (Retd) vs Union of India (2017) - Right to Privacy case\n2. Maneka Gandhi vs Union of India (1978) - Personal liberty case\n3. State of West Bengal vs Anwar Ali Sarkar (1952) - Equal protection case\n4. Maneka Gandhi vs Union of India (1978) - another excerpt\n5. State of West Bengal vs Anwar Ali Sarkar (1952) - another excerpt\n\nNone of these are ADM Jabalpur v. Shivkant Shukla (1976), which is the famous Habeas Corpus case during Emergency. The Puttaswamy judgement (2017) does overrule ADM Jabalpur, but the provided text doesn't seem to contain that discussion explicitly.\n\nSince the instruction says \"Answer the user's question based on the provided court judgements\" and \"Always cite the relevant case by number [1], [2] etc.\", but none of the provided judgements are the ADM Jabalpur case itself, I cannot answer based on the provided judgements. I should state that the relevant judgement is not among the provided documents.\n\nHowever, I notice that the Puttaswamy judgement (2017) explicitly overruled ADM Jabalpur. But the provided text of [1] doesn't show that discussion - it just shows the case header. The other cases are unrelated.\n\nI must answer based only on the provided judgements. Since none of them contain the holding of ADM Jabalpur, I should indicate",
+    "sources": [
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      }
+    ],
+    "faithfulness": 0.25,
+    "answer_relevance": 0.8
+  },
+  {
+    "id": "bench_006",
+    "category": "criminal_law",
+    "question": "What are the essential ingredients of murder under Section 302 IPC?",
+    "reference_answer": "Murder under Section 302 IPC requires causing death of a person with the intention of causing death, or with the intention of causing such bodily injury as the offender knows to be likely to cause death, or with the knowledge that the act is so imminently dangerous that it must in all probability cause death.",
+    "generated_answer": "Based on the provided judgements, I cannot answer your question about the essential ingredients of murder under Section 302 IPC. None of the supplied judgements ([1] through [5]) discuss the ingredients of murder or Section 302 IPC. They pertain to other legal matters:\n\n*   **[1]** concerns legislative competence and repugnancy regarding MCOCA.\n*   **[2]** concerns rules of statutory interpretation.\n*   **[3], [5]** concern the fundamental right to privacy (Puttas",
+    "sources": [
+      {
+        "citation": "2008 AIR SCW 6431",
+        "title": "State Of Maharashtra vs Bharat Shanti Lal Shah & Ors on 1 September, 2008"
+      },
+      {
+        "citation": "1964 AIR 381",
+        "title": "Makhan Singh vs State Of Punjab(And Connected Appeals) on 2 September, 1952"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "AIR1978SC597",
+        "title": "Mrs. Maneka Gandhi vs Union Of India (Uoi) And Anr. on 25 January, 1978"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      }
+    ],
+    "faithfulness": 0.1,
+    "answer_relevance": 1.0
+  },
+  {
+    "id": "bench_007",
+    "category": "criminal_law",
+    "question": "What is the difference between culpable homicide and murder under IPC?",
+    "reference_answer": "Culpable homicide under Section 299 IPC is the genus and murder under Section 300 is the species. All murders are culpable homicides but not all culpable homicides are murders. The distinction lies in the degree of intention and knowledge, with murder requiring higher degree of mens rea.",
+    "generated_answer": "ERROR: {'message': 'Upstream error from Nvidia: Internal server error', 'code': 502}",
+    "sources": [
+      {
+        "citation": "1982 AIR 1325",
+        "title": "Bachan Singh Etc. Etc vs State Of Punjab Etc. Etc on 16 August, 1982"
+      },
+      {
+        "citation": "(1982)3SCC24",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "AIR1952SC75",
+        "title": "The State Of West Bengal vs Anwar Ali Sarkar on 11 January, 1952"
+      },
+      {
+        "citation": "(1982)3SCC24",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  {
+    "id": "bench_008",
+    "category": "criminal_law",
+    "question": "What did the Supreme Court hold in Bachan Singh v. State of Punjab regarding death penalty?",
+    "reference_answer": "The Supreme Court upheld the constitutional validity of the death penalty and held that it should be imposed only in the rarest of rare cases when the alternative option of life imprisonment is unquestionably foreclosed.",
+    "generated_answer": "Based on the provided judgements, the Supreme Court in **Bachan Singh v. State of Punjab** addressed the constitutional validity of the death penalty for murder under Section 302 of the Indian Penal Code and the sentencing procedure under Section 354(3) of the Code of Criminal Procedure [1, 2].\n\nThe Court noted a significant shift in legislative policy: under the new Code of Criminal Procedure (effective April 1, 1974), life imprisonment became the normal punishment for murder, while the death penalty became an exception to be imposed only in",
+    "sources": [
+      {
+        "citation": "(1982)3SCC24",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      },
+      {
+        "citation": "AIR1980SC898",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      },
+      {
+        "citation": "1982 AIR 1325",
+        "title": "Bachan Singh Etc. Etc vs State Of Punjab Etc. Etc on 16 August, 1982"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "2008 AIR SCW 6431",
+        "title": "State Of Maharashtra vs Bharat Shanti Lal Shah & Ors on 1 September, 2008"
+      }
+    ],
+    "faithfulness": 0.75,
+    "answer_relevance": 0.7778
+  },
+  {
+    "id": "bench_009",
+    "category": "criminal_law",
+    "question": "What are the conditions for grant of bail under Section 437 CrPC?",
+    "reference_answer": "Under Section 437 CrPC, bail may be granted to a person accused of a non-bailable offence if the court is satisfied that there are reasonable grounds to believe the accused is not guilty and is unlikely to commit any offence while on bail. Special considerations apply for offences punishable with death or life imprisonment.",
+    "generated_answer": "Based on the provided judgements, I cannot answer your question regarding the conditions for grant of bail under **Section 437 CrPC**.\n\nThe supplied judgements discuss the following provisions instead:\n*   **Section 438 CrPC (Anticipatory Bail):** Judgements [1], [2], and [4] deal with the scope, ambit, and cancellation of anticipatory bail.\n*   **Section 436A CrPC (Maximum detention of undertrials):** Judgements [3] and [5] discuss the period of incarceration for undertrial prisoners and suspension of sentence pending appeal.\n\nNone of the provided",
+    "sources": [
+      {
+        "citation": "AIR 2011 SUPREME COURT 312",
+        "title": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010"
+      },
+      {
+        "citation": "AIR 2011 SUPREME COURT 312",
+        "title": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "AIR 2018 SUPREME COURT 1498",
+        "title": "Dr. Subhash Kashinath Mahajan vs The State Of Maharashtra on 20 March, 2018"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      }
+    ],
+    "faithfulness": 0.05,
+    "answer_relevance": 0.8
+  },
+  {
+    "id": "bench_010",
+    "category": "criminal_law",
+    "question": "What is the right to a speedy trial under Article 21?",
+    "reference_answer": "The Supreme Court in Hussainara Khatoon v. State of Bihar held that the right to speedy trial is a fundamental right implicit in Article 21. Unreasonable delay in trial violates the right to life and personal liberty.",
+    "generated_answer": "The user is asking about the right to a speedy trial under Article 21 of the Indian Constitution. I need to answer based on the provided court judgments.\n\nLooking at the provided judgments:\n\n[1] Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022 - This judgment explicitly discusses the right to speedy trial under Article 21. It states that \"procedure prescribed by law for depriving a person of liberty cannot be 'reasonable, fair or just' unless that procedure ensures a speedy trial for determination of the guilt of such person. No procedure which does not ensure a reasonably quick trial can be regarded as 'reasonable, fair or just'\"\n\n[2] Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022 - This discusses application of Section 436A CrPC to special acts and mentions \"the rigor as provided under Act would not come in the way in such a case as we are dealing with the liberty of a person. We do feel that more the rigor, the quicker the\" (appears incomplete)\n\n[3] The State Of West Bengal vs Anwar All Sarkarhabib Mohamed - This appears to be about jurisdiction of special courts and Article 14 (equal protection), not directly about speedy trial under Article 21.\n\n[4] A.K. Gopalan vs The State Of Madras - This is about preventive detention and Article 22, not specifically about speedy trial under Article 21.\n\n[5] Bachan Singh vs State Of Punjab - This mentions delay in proceedings but says \"Whether any importance should be given to the factor of delay and if so to what extent are matters entirely within the discretion of the court\" - this seems to be about sentencing discretion, not the fundamental right to speedy trial.\n\nThe most relevant and direct answer comes from judgment [1], which clearly articulates",
+    "sources": [
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "1950 AIR 27",
+        "title": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950"
+      },
+      {
+        "citation": "(1982)3SCC24",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      }
+    ],
+    "faithfulness": 0.2,
+    "answer_relevance": 1.0
+  },
+  {
+    "id": "bench_011",
+    "category": "civil_procedure",
+    "question": "What is the doctrine of res judicata under the Civil Procedure Code?",
+    "reference_answer": "Section 11 CPC embodies the doctrine of res judicata which bars a court from trying any suit or issue which has been directly and substantially in issue in a former suit between the same parties litigating under the same title and has been heard and finally decided by a competent court.",
+    "generated_answer": "Based on the provided judgements, I cannot answer your question about the doctrine of res judicata under the Civil Procedure Code. \n\nThe judgements provided relate to:\n- **The State Of West Bengal vs Anwar Ali Sarkar [1], [2]**: Criminal procedure, special courts, and fair trial requirements\n- **A.K. Gopalan vs The State Of Madras [3], [4]**: Preventive detention, Article 21, and \"procedure established by law\"\n- **Makhan Singh vs State Of Punjab [5]**: Rights, remedies, and jurisprudence principles\n\nNone of these",
+    "sources": [
+      {
+        "citation": "AIR1952SC75",
+        "title": "The State Of West Bengal vs Anwar Ali Sarkar on 11 January, 1952"
+      },
+      {
+        "citation": "AIR1952SC75",
+        "title": "The State Of West Bengal vs Anwar Ali Sarkar on 11 January, 1952"
+      },
+      {
+        "citation": "1950 AIR 27",
+        "title": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950"
+      },
+      {
+        "citation": "1950 AIR 27",
+        "title": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950"
+      },
+      {
+        "citation": "1964 AIR 381",
+        "title": "Makhan Singh vs State Of Punjab(And Connected Appeals) on 2 September, 1952"
+      }
+    ],
+    "faithfulness": 0.15,
+    "answer_relevance": 0.8333
+  },
+  {
+    "id": "bench_012",
+    "category": "civil_procedure",
+    "question": "What is the limitation period for filing a suit for recovery of money?",
+    "reference_answer": "Under the Limitation Act 1963, the limitation period for a suit for recovery of money on a simple contract is three years from the date the right to sue accrues, which is typically when the debt becomes due and payable.",
+    "generated_answer": "Based on the provided judgements, there is no information available regarding the limitation period for filing a suit for recovery of money. The judgements provided pertain to:\n\n1. **Insolvency resolution process timelines** under the Insolvency and Bankruptcy Code (180",
+    "sources": [
+      {
+        "citation": "AIR 2018 SUPREME COURT 5646",
+        "title": "Arcelormittal India Private Limited vs Satish Kumar Gupta on 4 October, 2018"
+      },
+      {
+        "citation": "AIR 2018 SUPREME COURT 5646",
+        "title": "Arcelormittal India Private Limited vs Satish Kumar Gupta on 4 October, 2018"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "",
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022"
+      },
+      {
+        "citation": "AIR 2020 SUPREME COURT 5245",
+        "title": "M Ravindran vs The Intelligence Officer Directorate ... on 26 October, 2020"
+      }
+    ],
+    "faithfulness": 0.1875,
+    "answer_relevance": 0.8
+  },
+  {
+    "id": "bench_013",
+    "category": "contract_law",
+    "question": "What are the essential elements of a valid contract under the Indian Contract Act?",
+    "reference_answer": "Under the Indian Contract Act 1872, a valid contract requires an offer, acceptance, lawful consideration, capacity of parties to contract, free consent, and a lawful object. An agreement not enforceable by law is void.",
+    "generated_answer": "Based on the provided judgements, I cannot answer your question about the essential elements of a valid contract under the Indian Contract Act, 1872. \n\nThe five judgements provided deal with entirely different legal matters:\n- **[1]** Constitutional",
+    "sources": [
+      {
+        "citation": "2008 AIR SCW 6431",
+        "title": "State Of Maharashtra vs Bharat Shanti Lal Shah & Ors on 1 September, 2008"
+      },
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "AIR1952SC75",
+        "title": "The State Of West Bengal vs Anwar Ali Sarkar on 11 January, 1952"
+      },
+      {
+        "citation": "1995 AIR 1811",
+        "title": "L.I.C. Of India & Anr vs Consumer Education & Research Centre & ... on 10 May, 1995"
+      }
+    ],
+    "faithfulness": 0.0714,
+    "answer_relevance": 1.0
+  },
+  {
+    "id": "bench_014",
+    "category": "contract_law",
+    "question": "What is the doctrine of frustration under the Indian Contract Act?",
+    "reference_answer": "Section 56 of the Indian Contract Act embodies the doctrine of frustration. A contract becomes void when after the contract is made, its performance becomes impossible or unlawful by reason of some event which the promisor could not prevent.",
+    "generated_answer": "Based on the provided judg",
+    "sources": [
+      {
+        "citation": "1977 AIR 1496",
+        "title": "Radhakrishna Agarwal & Ors vs State Of Bihar & Ors on 17 March, 1977"
+      },
+      {
+        "citation": "AIRONLINE 2020 SC 929",
+        "title": "Vidya Drolia vs Durga Trading Corporation on 14 December, 2020"
+      },
+      {
+        "citation": "",
+        "title": "The Bengal Immunity Company Limited vs The State Of Bihar And Others on 4 December, 1954"
+      },
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "AIR 2011 SUPREME COURT 3430",
+        "title": "K.T. Plantation Pvt. Ltd. & Anr vs State Of Karnataka on 9 August, 2011"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  {
+    "id": "bench_015",
+    "category": "constitutional_law",
+    "question": "What did the Supreme Court hold in Olga Tellis v. Bombay Municipal Corporation?",
+    "reference_answer": "The Supreme Court held that the right to livelihood is an integral part of the right to life under Article 21. Eviction of pavement dwellers without providing alternative accommodation was held to violate Article 21 as it deprived them of their livelihood.",
+    "generated_answer": "Based on the provided judgements, I cannot answer this question. The case **Olga Tellis v. Bombay Municipal Corporation** is not included in the relevant judgements provided (which are [1] through [5]). \n\nThe provided judgements cover:\n- [1] & [3]: *The State Of West Bengal vs Anwar All Sarkarhabib Mohamed* (1952)\n- [2]: *Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors.* (2017) - Right",
+    "sources": [
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "",
+        "title": "S. Kasi vs State Through The Inspector Of Police ... on 19 June, 2020"
+      },
+      {
+        "citation": "AIR 2020 SUPREME COURT 5245",
+        "title": "M Ravindran vs The Intelligence Officer Directorate ... on 26 October, 2020"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.5
+  },
+  {
+    "id": "bench_016",
+    "category": "constitutional_law",
+    "question": "What is the scope of judicial review under Article 32 of the Constitution?",
+    "reference_answer": "Article 32 guarantees the right to move the Supreme Court for enforcement of fundamental rights. The Supreme Court has held that the right guaranteed under Article 32 is itself a fundamental right and the court has wide powers to issue appropriate writs, directions or orders.",
+    "generated_answer": "ERROR: {'message': 'Upstream error from Nvidia: Internal server error', 'code': 502}",
+    "sources": [
+      {
+        "citation": "AIR1978SC597",
+        "title": "Mrs. Maneka Gandhi vs Union Of India (Uoi) And Anr. on 25 January, 1978"
+      },
+      {
+        "citation": "AIR1976SC1207",
+        "title": "Additional District Magistrate, ... vs Shivakant Shukla on 28 April, 1976"
+      },
+      {
+        "citation": "AIR1952SC75",
+        "title": "The State Of West Bengal vs Anwar Ali Sarkar on 11 January, 1952"
+      },
+      {
+        "citation": "AIR1980SC898",
+        "title": "Bachan Singh vs State Of Punjab on 9 May, 1980"
+      },
+      {
+        "citation": "AIR 2011 SUPREME COURT 3430",
+        "title": "K.T. Plantation Pvt. Ltd. & Anr vs State Of Karnataka on 9 August, 2011"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  {
+    "id": "bench_017",
+    "category": "administrative_law",
+    "question": "What is the principle of natural justice in Indian administrative law?",
+    "reference_answer": "Natural justice comprises two main principles: audi alteram partem (hear the other side) and nemo judex in causa sua (no one should be a judge in his own cause). These principles require that a person must be given notice and an opportunity to be heard before any adverse order is passed against them.",
+    "generated_answer": "Based on the provided judgments, the principle of natural justice in Indian administrative law encompasses the following key aspects:\n\n**1. Flexible and Context-Dependent Rules**\nThe rules of natural justice are **not \"embodied rules\"** (i.e., not rigid or codified). What particular rule applies depends on:\n- The facts and circumstances of the case\n- The framework of the law under which the enquiry is held",
+    "sources": [
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1950 AIR 27",
+        "title": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950"
+      },
+      {
+        "citation": "AIR1978SC597",
+        "title": "Mrs. Maneka Gandhi vs Union Of India (Uoi) And Anr. on 25 January, 1978"
+      },
+      {
+        "citation": "AIR1978SC597",
+        "title": "Mrs. Maneka Gandhi vs Union Of India (Uoi) And Anr. on 25 January, 1978"
+      }
+    ],
+    "faithfulness": 0.35,
+    "answer_relevance": 1.0
+  },
+  {
+    "id": "bench_018",
+    "category": "criminal_law",
+    "question": "What did the Supreme Court hold in Selvi v. State of Karnataka regarding narco analysis?",
+    "reference_answer": "The Supreme Court held that narco analysis, brain mapping and polygraph tests conducted without the consent of the accused violate the right against self-incrimination under Article 20(3) and the right to personal liberty under Article 21.",
+    "generated_answer": "Based on the provided judgements, I cannot answer this question. The Supreme Court's decision in **Selvi v. State of Karnataka** regarding narco analysis is not included in the provided documents.\n\nThe judgements provided are:\n1. **Justice K.S. Puttaswamy (Retd) vs Union of India** (2017) - Right to Privacy case\n2. **State of West Bengal vs Anwar Ali Sarkar** (1952) - Classification and special courts\n3. **Maneka Gandhi vs Union of India** (1978) -",
+    "sources": [
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "1952 AIR 75",
+        "title": "The State Of West Bengal vs Anwar All Sarkarhabib Mohamed,The ... on 11 January, 1952"
+      }
+    ],
+    "faithfulness": 0.2,
+    "answer_relevance": 0.875
+  },
+  {
+    "id": "bench_019",
+    "category": "contract_law",
+    "question": "What is the doctrine of promissory estoppel in Indian law?",
+    "reference_answer": "The doctrine of promissory estoppel holds that where a person makes a representation or promise intending it to be acted upon, and another person acts on it to their detriment, the person making the representation is estopped from going back on it even without consideration.",
+    "generated_answer": "Based on the provided judgements, I cannot answer your question about the doctrine of promissory estoppel in Indian law. The five judgements provided ([1] through [5]) deal exclusively with constitutional law matters—specifically:\n\n- **A.K. Gop",
+    "sources": [
+      {
+        "citation": "1950 AIR 27",
+        "title": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      },
+      {
+        "citation": "AIR 2018 SUPREME COURT 5646",
+        "title": "Arcelormittal India Private Limited vs Satish Kumar Gupta on 4 October, 2018"
+      },
+      {
+        "citation": "AIR1976SC1207",
+        "title": "Additional District Magistrate, ... vs Shivakant Shukla on 28 April, 1976"
+      },
+      {
+        "citation": "1978 AIR 597",
+        "title": "Maneka Gandhi vs Union Of India on 25 January, 1978"
+      }
+    ],
+    "faithfulness": 0.0,
+    "answer_relevance": 1.0
+  },
+  {
+    "id": "bench_020",
+    "category": "constitutional_law",
+    "question": "What are the fundamental rights guaranteed under Article 19 of the Constitution?",
+    "reference_answer": "Article 19 guarantees six freedoms to citizens: freedom of speech and expression, freedom to assemble peaceably, freedom to form associations, freedom to move freely throughout India, freedom to reside in any part of India, and freedom to practice any profession or carry on any occupation.",
+    "generated_answer": "The user is asking about the fundamental rights guaranteed under Article 19 of the Constitution of India. I need to answer based on the provided court judgements. Let me examine the provided judgements to see if they mention Article 19 and its specific freedoms.\n\nLooking at the provided judgements:\n\n[1] Justice K.S.Puttaswamy(Retd) vs Union Of India - This is the privacy judgement. The excerpt mentions \"values of liberty, equality, fraternity, dignity\" but doesn't specifically list Article 19 freedoms.\n\n[2] Justice K.S.Puttaswamy(Retd) vs Union Of India - Another excerpt from the same case discussing basic structure doctrine and fundamental rights, but not specifically Article 19.\n\n[3] State Of Kerala & Anr vs N. M. Thomas & Ors - Discusses fundamental rights and directive principles, but doesn't enumerate Article 19 freedoms.\n\n[4] Joseph Shine vs Union Of India - Discusses privacy and its relationship with fundamental rights, mentions \"protected freedoms\" but doesn't list Article 19 specifically.\n\n[5] State Of Maharashtra vs Bharat Shanti Lal Shah & Ors - Mentions \"Article 19(1)(a), (b), (c), (d), (e) and (f)\" in paragraph 20, but the text is cut off.\n\nFrom judgement [5], I can see a reference to Article 19(1)(a), (b), (c), (d), (e) and (f). This suggests the judgement was discussing the six freedoms under Article 19(1). However, the text is incomplete.\n\nBased on my knowledge of Indian constitutional law (which I should not use directly but the judgements don't fully enumerate them), Article 19(1) guarantees six freedoms:\n(a) Freedom of speech and expression\n(b) Freedom to assemble",
+    "sources": [
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "AIR 2017 SUPREME COURT 4161",
+        "title": "Justice K.S.Puttaswamy(Retd) And Anr. vs Union Of India And Ors. on 24 August, 2017"
+      },
+      {
+        "citation": "1976 AIR 490",
+        "title": "State Of Kerala & Anr vs N. M. Thomas & Ors on 19 September, 1975"
+      },
+      {
+        "citation": "AIR 2018 SUPREME COURT 4898",
+        "title": "Joseph Shine vs Union Of India on 27 September, 2018"
+      },
+      {
+        "citation": "2008 AIR SCW 6431",
+        "title": "State Of Maharashtra vs Bharat Shanti Lal Shah & Ors on 1 September, 2008"
+      }
+    ],
+    "faithfulness": 0.3,
+    "answer_relevance": 0.8333
+  }
+]
