@@ -132,7 +132,7 @@ Fine-tuned model will be available at: `adnshkl/jurix-7b-legal`
 - [x] RAG pipeline — retrieve + generate with citations
 - [x] FastAPI backend
 - [x] RAGAS evaluation
-- [ ] React frontend
+- [x] React frontend — hero + answer panel + citation linking
 - [ ] Deployment
 
 ---

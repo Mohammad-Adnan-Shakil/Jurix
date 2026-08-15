@@ -8,7 +8,7 @@ load_dotenv()
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-LLM_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+LLM_MODEL = "openrouter/auto"
 
 _embedder = None
 
@@ -93,30 +93,71 @@ def generate(prompt: str) -> str:
             "messages": [
                 {
                     "role": "system",
-                    "content": "You are Jurix, an Indian legal assistant. Answer directly and concisely based on the provided judgements. Never show your thinking process. Start your answer immediately with the legal holding or principle. Cite sources as [1], [2] etc."
+                    "content": "You are Jurix, an Indian legal AI assistant. Rules: (1) Answer in 3-5 sentences maximum. (2) Start your response with the actual legal answer immediately — no preamble, no thinking out loud, no meta-commentary. (3) Never say 'The user is asking', 'I need to', 'Let me', 'Looking at', 'Based on the provided'. (4) Cite sources inline as [1], [2]. (5) If context is insufficient, state the legal principle from your knowledge directly."
                 },
                 {
                     "role": "user",
                     "content": prompt
                 }
             ],
-            "max_tokens": 400,
+            "max_tokens": 350,
             "temperature": 0.1
         },
         timeout=60
     )
 
+
     data = response.json()
 
-    # Handle error responses
+
     if "error" in data:
-        error_msg = data["error"].get("message", "Unknown error")
-        return f"LLM unavailable: {error_msg}"
+        return f"Error: {data['error'].get('message', 'Unknown error')}"
+
 
     if "choices" not in data:
-        return f"Unexpected response: {data}"
+        return f"Unexpected response from model."
 
-    return data["choices"][0]["message"]["content"].strip()
+
+    content = data["choices"][0]["message"]["content"].strip()
+
+
+    # Aggressively strip chain-of-thought leakage
+    leak_phrases = [
+        "The user is asking",
+        "I need to answer",
+        "Let me examine",
+        "Let me check",
+        "Looking at the provided",
+        "Based on the provided",
+        "I need to work",
+        "Since the text",
+    ]
+
+
+    for phrase in leak_phrases:
+        if phrase.lower() in content[:200].lower():
+            # Find first real sentence starting with a legal statement
+            legal_starters = [
+                "The Supreme Court",
+                "In Maneka Gandhi",
+                "Article ",
+                "The Court held",
+                "Under ",
+                "Section ",
+                "This case",
+                "The right",
+                "According to",
+                "It was held",
+            ]
+            for starter in legal_starters:
+                idx = content.find(starter)
+                if 0 < idx < 600:
+                    content = content[idx:]
+                    break
+            break
+
+
+    return content
 
 
 def answer(query: str) -> dict:

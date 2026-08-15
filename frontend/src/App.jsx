@@ -2,62 +2,29 @@ import { useState } from "react";
 import axios from "axios";
 import Hero from "./components/Hero";
 import AnswerPanel from "./components/AnswerPanel";
+import Loading from "./components/Loading";
 
 const API_URL = "http://localhost:8001";
 
 export default function App() {
+  const [screen, setScreen] = useState("hero"); // hero | loading | answer
   const [result, setResult] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleQuery = async (question) => {
-    setLoading(true);
+    setScreen("loading");
+    setError(null);
     try {
       const res = await axios.post(`${API_URL}/api/query`, { question });
       setResult({ ...res.data, query: question });
+      setScreen("answer");
     } catch (err) {
-      console.error(err);
-    } finally {
-      setLoading(false);
+      setError("Backend not reachable. Is it running on port 8001?");
+      setScreen("hero");
     }
   };
 
-  if (loading) {
-    return (
-      <div
-        className="min-h-screen flex flex-col items-center justify-center"
-        style={{ background: "var(--bg)" }}
-      >
-        <div
-          className="font-display text-5xl mb-6"
-          style={{ color: "var(--gold)" }}
-        >
-          Jurix
-        </div>
-        <div className="flex gap-2">
-          {[0, 1, 2].map((i) => (
-            <div
-              key={i}
-              className="w-2 h-2 rounded-full animate-bounce"
-              style={{
-                background: "var(--gold)",
-                animationDelay: `${i * 0.15}s`,
-              }}
-            />
-          ))}
-        </div>
-        <p
-          className="mt-4 text-sm"
-          style={{ color: "var(--text-secondary)" }}
-        >
-          Searching Indian legal corpus...
-        </p>
-      </div>
-    );
-  }
-
-  if (result) {
-    return <AnswerPanel result={result} onNewQuery={handleQuery} />;
-  }
-
-  return <Hero onQuery={handleQuery} />;
+  if (screen === "loading") return <Loading />;
+  if (screen === "answer") return <AnswerPanel result={result} onNewQuery={handleQuery} onBack={() => setScreen("hero")} />;
+  return <Hero onQuery={handleQuery} error={error} />;
 }
