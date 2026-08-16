@@ -79,7 +79,7 @@ function ParticleCanvas() {
   );
 }
 
-export default function Hero({ onQuery, error }) {
+export default function Hero({ onQuery, error, onEval }) {
   const [input, setInput] = useState("");
   const textareaRef = useRef(null);
 
@@ -117,6 +117,31 @@ export default function Hero({ onQuery, error }) {
         pointerEvents: "none",
         zIndex: 1,
       }} />
+
+      {/* Eval nav link */}
+      {onEval && (
+        <button
+          onClick={onEval}
+          style={{
+            position: "fixed",
+            top: "20px",
+            right: "32px",
+            background: "none",
+            border: "none",
+            color: "#6B7280",
+            fontSize: "13px",
+            fontFamily: "Inter, sans-serif",
+            cursor: "pointer",
+            letterSpacing: "0.03em",
+            zIndex: 50,
+            transition: "color 0.2s",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "#C9A84C")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "#6B7280")}
+        >
+          Eval
+        </button>
+      )}
 
       {/* Content */}
       <div style={{

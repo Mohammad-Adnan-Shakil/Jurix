@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-export default function AnswerPanel({ result, onNewQuery, onBack }) {
+export default function AnswerPanel({ result, onNewQuery, onBack, onEval }) {
   const [activeSource, setActiveSource] = useState(null);
   const [input, setInput] = useState("");
   const [pulsingCitation, setPulsingCitation] = useState(null);
@@ -279,6 +279,25 @@ export default function AnswerPanel({ result, onNewQuery, onBack }) {
           }}>
             Indian Legal Intelligence
           </span>
+          {onEval && (
+            <button
+              onClick={onEval}
+              style={{
+                background: "none",
+                border: "none",
+                color: "#6B7280",
+                fontSize: "12px",
+                fontFamily: "Inter, sans-serif",
+                cursor: "pointer",
+                letterSpacing: "0.04em",
+                transition: "color 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#C9A84C")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#6B7280")}
+            >
+              Eval
+            </button>
+          )}
         </div>
 
         {/* Scrollable content */}
