@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from backend.rag import answer
+from rag import answer
 import uvicorn
 
 app = FastAPI(title="Jurix API", version="1.0.0")
