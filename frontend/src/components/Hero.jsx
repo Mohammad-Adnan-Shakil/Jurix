@@ -269,8 +269,17 @@ export default function Hero({ onQuery, error, onEval }) {
 
         {/* Error */}
         {error && (
-          <p style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "#EF4444", marginTop: "12px" }}>
-            {error}
+          <p style={{
+            fontFamily: "Inter, sans-serif",
+            fontSize: "13px",
+            color: "#EF4444",
+            marginTop: "12px",
+            padding: "8px 16px",
+            background: "rgba(239,68,68,0.08)",
+            border: "1px solid rgba(239,68,68,0.2)",
+            borderRadius: "8px",
+          }}>
+            Unable to reach the server. Please try again in a moment.
           </p>
         )}
 
