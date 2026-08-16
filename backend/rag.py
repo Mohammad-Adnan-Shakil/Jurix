@@ -21,7 +21,7 @@ def get_embedder():
 
 def retrieve(query: str, top_k: int = 5) -> list[dict]:
     embedder = get_embedder()
-    query_embedding = list(embedder.encode([query]))[0].tolist()
+    query_embedding = list(embedder.embed([query]))[0].tolist()
 
     conn = psycopg2.connect(os.getenv("NEON_DATABASE_URL"))
     cur = conn.cursor()
