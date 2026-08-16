@@ -196,14 +196,8 @@ export default function Landing({ onEnterChat, onEnterEval }) {
           padding: "16px 48px",
           zIndex: 50,
         }}>
-          <span style={{
-            fontFamily: "Cormorant Garamond, serif",
-            fontSize: "22px",
-            fontWeight: 600,
-            color: "#C9A84C",
-            letterSpacing: "-0.5px",
-          }}>
-            Jurix
+          <span style={{ display: "flex", alignItems: "center" }}>
+            <img src="/logo.svg" height="32" alt="Jurix" style={{ display: "inline-block" }} />
           </span>
 
           <div style={{ display: "flex", alignItems: "center", gap: "28px" }}>
