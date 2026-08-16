@@ -1,12 +1,12 @@
 import psycopg2
 import os
 import requests
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 from dotenv import load_dotenv
 
 load_dotenv()
 
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 LLM_MODEL = "openrouter/auto"
 
@@ -15,13 +15,13 @@ _embedder = None
 def get_embedder():
     global _embedder
     if _embedder is None:
-        _embedder = SentenceTransformer(EMBEDDING_MODEL)
+        _embedder = TextEmbedding(EMBEDDING_MODEL)
     return _embedder
 
 
 def retrieve(query: str, top_k: int = 5) -> list[dict]:
     embedder = get_embedder()
-    query_embedding = embedder.encode(query).tolist()
+    query_embedding = list(embedder.encode([query]))[0].tolist()
 
     conn = psycopg2.connect(os.getenv("NEON_DATABASE_URL"))
     cur = conn.cursor()
