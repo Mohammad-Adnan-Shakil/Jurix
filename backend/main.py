@@ -9,7 +9,7 @@ app = FastAPI(title="Jurix API", version="1.0.0")
 # Allow React frontend to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://jurix.vercel.app"],
+    allow_origins=["https://jurix-tau.vercel.app", "http://localhost:5173", "http://localhost:8000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
