@@ -6,7 +6,7 @@ import AnswerPanel from "./components/AnswerPanel";
 import Loading from "./components/Loading";
 import EvalDashboard from "./components/EvalDashboard";
 
-const API_URL = "http://localhost:8001";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8001";
 
 export default function App() {
   const [screen, setScreen] = useState("landing"); // landing | hero | loading | answer | eval
