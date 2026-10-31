@@ -1,6 +1,15 @@
 # Jurix — AI Legal Intelligence for Indian Law
 
-> **Live:** [jurix-tau.vercel.app](https://jurix-tau.vercel.app) · **Model:** [adnshkl/jurix-7b-legal](https://huggingface.co/adnshkl/jurix-7b-legal) · **Built by:** [Mohammad Adnan Shakil](https://github.com/Mohammad-Adnan-Shakil)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral%207B-QLoRA-FF6B00?style=flat-square&logo=huggingface&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-Neon-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Model%20Hub-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Render](https://img.shields.io/badge/Deployed-Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+> **Live:** [jurix-tau.vercel.app](https://jurix-tau.vercel.app) · **Model:** [adnshkl/jurix-7b-legal](https://huggingface.co/adnshkl/jurix-7b-legal)
 
 Jurix is a fine-tuned LLM combined with RAG retrieval over Indian Supreme Court judgements. Ask any Indian legal question — every answer is cited, every source links back to the original judgement on Indian Kanoon.
 
@@ -27,20 +36,19 @@ Jurix is a fine-tuned LLM combined with RAG retrieval over Indian Supreme Court 
 
 ## Architecture
 
-```
 Indian Kanoon API (20M+ judgements)
-        ↓
+↓
 Data pipeline: scrape → clean → chunk → ChatML instruction pairs
-        ↓
+↓
 QLoRA fine-tuning on Mistral 7B Instruct v0.3
 (r=16, alpha=32, 4-bit NF4 quantization via bitsandbytes)
-        ↓
+↓
 jurix-7b-legal → HuggingFace Hub (adnshkl/jurix-7b-legal)
-        ↓
+↓
 RAG layer: Neon pgvector + fastembed (BAAI/bge-small-en-v1.5)
-        ↓
+↓
 FastAPI backend (Render) → React + Tailwind frontend (Vercel)
-```
+
 
 ---
 
@@ -83,7 +91,7 @@ FastAPI backend (Render) → React + Tailwind frontend (Vercel)
 
 ## Evaluation
 
-Benchmarked on 20 manually curated Indian legal Q&A pairs with verified answers. Full 50-question benchmark in progress.
+Benchmarked on 20 manually curated Indian legal Q&A pairs with verified answers.
 
 | Metric | Score |
 |--------|-------|
@@ -97,13 +105,12 @@ Benchmarked on 20 manually curated Indian legal Q&A pairs with verified answers.
 
 ## Data Pipeline
 
-```
 data/
-├── scraper.py          # Indian Kanoon API → raw judgements (50 SC cases)
-├── cleaner.py          # Remove boilerplate, chunk into 3,000-char segments
-├── formatter.py        # Convert to ChatML instruction pairs (5,284 total)
+├── scraper.py # Indian Kanoon API → raw judgements (50 SC cases)
+├── cleaner.py # Remove boilerplate, chunk into 3,000-char segments
+├── formatter.py # Convert to ChatML instruction pairs (5,284 total)
 └── generate_outputs.py # Fill assistant outputs via LLM (240 filled)
-```
+
 
 **Pipeline output:**
 - 50 landmark Supreme Court judgements
@@ -116,32 +123,31 @@ data/
 
 ## Project Structure
 
-```
 Jurix/
 ├── data/
-│   ├── scraper.py
-│   ├── cleaner.py
-│   ├── formatter.py
-│   └── generate_outputs.py
+│ ├── scraper.py
+│ ├── cleaner.py
+│ ├── formatter.py
+│ └── generate_outputs.py
 ├── backend/
-│   ├── main.py         # FastAPI endpoints
-│   ├── rag.py          # Retrieval + generation pipeline
-│   ├── embed.py        # Embedding pipeline for Neon pgvector
-│   ├── evaluate.py     # RAGAS evaluation script
-│   └── benchmark.py    # 50-question benchmark
+│ ├── main.py # FastAPI endpoints
+│ ├── rag.py # Retrieval + generation pipeline
+│ ├── embed.py # Embedding pipeline for Neon pgvector
+│ ├── evaluate.py # RAGAS evaluation script
+│ └── benchmark.py # 50-question benchmark
 ├── frontend/
-│   └── src/
-│       ├── App.jsx
-│       └── components/
-│           ├── Landing.jsx
-│           ├── Hero.jsx
-│           ├── AnswerPanel.jsx
-│           ├── EvalDashboard.jsx
-│           └── Loading.jsx
-├── training/           # Google Colab notebooks
+│ └── src/
+│ ├── App.jsx
+│ └── components/
+│ ├── Landing.jsx
+│ ├── Hero.jsx
+│ ├── AnswerPanel.jsx
+│ ├── EvalDashboard.jsx
+│ └── Loading.jsx
+├── training/ # Google Colab notebooks
 ├── render.yaml
 └── README.md
-```
+
 
 ---
 
@@ -155,11 +161,9 @@ cd Jurix
 cd backend
 pip install -r requirements.txt
 
-# Create .env
 cp .env.example .env
 # Fill in: NEON_DATABASE_URL, OPENROUTER_API_KEY, IK_API_KEY, HF_TOKEN
 
-# Run backend
 uvicorn main:app --port 8000
 
 # Frontend (separate terminal)
@@ -174,17 +178,14 @@ npm run dev
 
 **Base URL:** `https://jurix-api.onrender.com`
 
-```
-GET  /api/health   → {"status": "ok", "service": "Jurix API"}
-POST /api/query    → {"question": "string"}
-                  ← {"answer": "string", "sources": [...]}
-```
+GET /api/health → {“status”: “ok”, “service”: “Jurix API”}
+POST /api/query → {“question”: “string”}
+← {“answer”: “string”, “sources”: [...]}
+
 
 ---
 
 ## Benchmark Coverage
-
-20 questions evaluated across 8 legal categories:
 
 | Category | Questions |
 |----------|-----------|
@@ -227,4 +228,9 @@ POST /api/query    → {"question": "string"}
 
 ---
 
-*Presidency University Bengaluru · 2026*
+## Author
+
+**Mohammad Adnan Shakil**
+CSE Student, Presidency University, Bengaluru
+
+[GitHub](https://github.com/Mohammad-Adnan-Shakil) · [LinkedIn](https://linkedin.com/in/mohammadadnanshakil) · [HuggingFace](https://huggingface.co/adnshkl)
